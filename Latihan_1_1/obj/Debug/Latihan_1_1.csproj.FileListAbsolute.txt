@@ -7,3 +7,12 @@ D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Lat
 D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Latihan_1_1\obj\Debug\Latihan_1_1.csproj.GenerateResource.Cache
 D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Latihan_1_1\obj\Debug\Latihan_1_1.exe
 D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Latihan_1_1\obj\Debug\Latihan_1_1.pdb
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Senin_141110817_Chyntia\Latihan_1_1\bin\Debug\Latihan_1_1.exe.config
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Senin_141110817_Chyntia\Latihan_1_1\obj\Debug\Latihan_1_1.exe
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Senin_141110817_Chyntia\Latihan_1_1\obj\Debug\Latihan_1_1.pdb
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Senin_141110817_Chyntia\Latihan_1_1\bin\Debug\Latihan_1_1.exe
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Senin_141110817_Chyntia\Latihan_1_1\bin\Debug\Latihan_1_1.pdb
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Senin_141110817_Chyntia\Latihan_1_1\obj\Debug\Latihan_1_1.csprojResolveAssemblyReference.cache
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Senin_141110817_Chyntia\Latihan_1_1\obj\Debug\Latihan_1_1.Form1.resources
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Senin_141110817_Chyntia\Latihan_1_1\obj\Debug\Latihan_1_1.Properties.Resources.resources
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Senin_141110817_Chyntia\Latihan_1_1\obj\Debug\Latihan_1_1.csproj.GenerateResource.Cache
