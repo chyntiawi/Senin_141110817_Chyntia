@@ -44,6 +44,7 @@
             this.color = new System.Windows.Forms.ToolStripComboBox();
             this.backcolor = new System.Windows.Forms.ToolStripComboBox();
             this.textbox = new System.Windows.Forms.RichTextBox();
+            this.size = new System.Windows.Forms.ToolStripComboBox();
             this.toolStrip1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -103,6 +104,7 @@
             // toolStrip2
             // 
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.size,
             this.bold,
             this.toolStripSeparator1,
             this.italic,
@@ -178,6 +180,12 @@
             this.textbox.Text = "";
             this.textbox.TextChanged += new System.EventHandler(this.textbox_TextChanged);
             // 
+            // size
+            // 
+            this.size.Name = "size";
+            this.size.Size = new System.Drawing.Size(121, 25);
+            this.size.SelectedIndexChanged += new System.EventHandler(this.size_SelectedIndexChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -216,6 +224,7 @@
         private System.Windows.Forms.ToolStripComboBox color;
         private System.Windows.Forms.ToolStripComboBox backcolor;
         private System.Windows.Forms.RichTextBox textbox;
+        private System.Windows.Forms.ToolStripComboBox size;
     }
 }
 

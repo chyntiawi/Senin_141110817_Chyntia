@@ -49,6 +49,12 @@ namespace Latihan_4_1
             {
                 backcolor.Items.Add(back_color);
             }
+
+            //fontsize
+            for (int i = 2; i <= 74; i += 2)
+            {
+                size.Items.Add(i + " px");
+            }
         }
 
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
@@ -67,22 +73,16 @@ namespace Latihan_4_1
                     {
                         textbox.SaveFile(save.FileName, RichTextBoxStreamType.PlainText);
                     }
-                    ActiveForm.Hide();
-                    Form1 newform = new Form1();
-                    newform.ShowDialog();
+                    textbox.Clear();
                 }
                 else if (result == DialogResult.No)
                 {
-                    ActiveForm.Hide();
-                    Form1 newform = new Form1();
-                    newform.ShowDialog();
+                    textbox.Clear();
                 }
             }
             else
             {
-                ActiveForm.Hide();
-                Form1 newform = new Form1();
-                newform.ShowDialog();
+                textbox.Clear();
             }
         }
 
@@ -213,6 +213,11 @@ namespace Latihan_4_1
                 textbox.SelectionFont = new Font(textbox.SelectionFont, textbox.SelectionFont.Style | FontStyle.Underline);
                 underline.Checked = true;
             }
+        }
+
+        private void size_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            textbox.SelectionFont = new System.Drawing.Font(textbox.SelectionFont.FontFamily, Convert.ToInt32(size.Text.Split(' ')[0]), textbox.SelectionFont.Style);
         }
     }
 }
