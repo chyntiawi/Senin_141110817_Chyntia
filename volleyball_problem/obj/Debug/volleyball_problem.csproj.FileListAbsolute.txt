@@ -1,0 +1,9 @@
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\volleyball_problem\bin\Debug\volleyball_problem.exe.config
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\volleyball_problem\bin\Debug\volleyball_problem.exe
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\volleyball_problem\bin\Debug\volleyball_problem.pdb
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\volleyball_problem\obj\Debug\volleyball_problem.csprojResolveAssemblyReference.cache
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\volleyball_problem\obj\Debug\volleyball_problem.Form1.resources
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\volleyball_problem\obj\Debug\volleyball_problem.Properties.Resources.resources
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\volleyball_problem\obj\Debug\volleyball_problem.csproj.GenerateResource.Cache
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\volleyball_problem\obj\Debug\volleyball_problem.exe
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\volleyball_problem\obj\Debug\volleyball_problem.pdb
