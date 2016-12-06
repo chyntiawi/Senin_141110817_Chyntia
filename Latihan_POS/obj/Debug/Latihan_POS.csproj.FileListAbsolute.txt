@@ -1,0 +1,10 @@
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Latihan_POS\bin\Debug\Latihan_POS.exe.config
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Latihan_POS\bin\Debug\Latihan_POS.exe
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Latihan_POS\bin\Debug\Latihan_POS.pdb
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Latihan_POS\obj\Debug\Latihan_POS.csprojResolveAssemblyReference.cache
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Latihan_POS\obj\Debug\Latihan_POS.Properties.Resources.resources
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Latihan_POS\obj\Debug\Latihan_POS.csproj.GenerateResource.Cache
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Latihan_POS\obj\Debug\Latihan_POS.exe
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Latihan_POS\obj\Debug\Latihan_POS.pdb
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Latihan_POS\bin\Debug\MySql.Data.dll
+D:\Chyntia\Kuliah\TI-Sem5\.NET Lanjutan\Tugas\Pert 1\Senin_141110817_Chyntia\Latihan_POS\obj\Debug\Latihan_POS.Form1.resources
