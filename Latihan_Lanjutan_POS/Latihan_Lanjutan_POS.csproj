@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{77BD9FA0-17C2-45C4-9557-58BCA4885822}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Latihan_Lanjutan_POS</RootNamespace>
+    <AssemblyName>Latihan_Lanjutan_POS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Barang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barang.Designer.cs">
+      <DependentUpon>Barang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daftar_Brg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Daftar_Brg.Designer.cs">
+      <DependentUpon>Daftar_Brg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daftar_Cust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Daftar_Cust.Designer.cs">
+      <DependentUpon>Daftar_Cust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daftar_Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Daftar_Supplier.Designer.cs">
+      <DependentUpon>Daftar_Supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Brg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Brg.Designer.cs">
+      <DependentUpon>Delete_Brg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Cust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Cust.Designer.cs">
+      <DependentUpon>Delete_Cust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Supplier.Designer.cs">
+      <DependentUpon>Delete_Supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Brg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Brg.Designer.cs">
+      <DependentUpon>Edit_Brg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Cust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Cust.Designer.cs">
+      <DependentUpon>Edit_Cust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Supplier.Designer.cs">
+      <DependentUpon>Edit_Supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Supplier.Designer.cs">
+      <DependentUpon>Supplier.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Barang.resx">
+      <DependentUpon>Barang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daftar_Brg.resx">
+      <DependentUpon>Daftar_Brg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daftar_Cust.resx">
+      <DependentUpon>Daftar_Cust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Daftar_Supplier.resx">
+      <DependentUpon>Daftar_Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Brg.resx">
+      <DependentUpon>Delete_Brg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Cust.resx">
+      <DependentUpon>Delete_Cust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Supplier.resx">
+      <DependentUpon>Delete_Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Brg.resx">
+      <DependentUpon>Edit_Brg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Cust.resx">
+      <DependentUpon>Edit_Cust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Supplier.resx">
+      <DependentUpon>Edit_Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Supplier.resx">
+      <DependentUpon>Supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
