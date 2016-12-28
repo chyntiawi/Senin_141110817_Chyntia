@@ -72,6 +72,66 @@ LOCK TABLES `daftar_customer` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `daftar_pembeliandetail`
+--
+
+DROP TABLE IF EXISTS `daftar_pembeliandetail`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `daftar_pembeliandetail` (
+  `ID` int(10) NOT NULL AUTO_INCREMENT,
+  `Kode` varchar(20) NOT NULL,
+  `ID_Supplier` int(10) NOT NULL,
+  `ID_Barang` int(10) NOT NULL,
+  `Harga_Barang` decimal(16,2) NOT NULL,
+  `Kuantitas` int(100) NOT NULL,
+  `Total_Harga` decimal(16,2) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `daftar_pembeliandetail`
+--
+
+LOCK TABLES `daftar_pembeliandetail` WRITE;
+/*!40000 ALTER TABLE `daftar_pembeliandetail` DISABLE KEYS */;
+/*!40000 ALTER TABLE `daftar_pembeliandetail` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `daftar_penjualandetail`
+--
+
+DROP TABLE IF EXISTS `daftar_penjualandetail`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `daftar_penjualandetail` (
+  `ID` int(10) NOT NULL AUTO_INCREMENT,
+  `Kode` varchar(20) NOT NULL,
+  `ID_Customer` int(10) NOT NULL,
+  `ID_Barang` int(10) NOT NULL,
+  `Harga_Barang` decimal(16,2) NOT NULL,
+  `Kuantitas` int(100) NOT NULL,
+  `Total_Harga` decimal(16,2) DEFAULT NULL,
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `daftar_penjualandetail`
+--
+
+LOCK TABLES `daftar_penjualandetail` WRITE;
+/*!40000 ALTER TABLE `daftar_penjualandetail` DISABLE KEYS */;
+/*!40000 ALTER TABLE `daftar_penjualandetail` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `daftar_supplier`
 --
 
@@ -107,4 +167,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-12-08 22:19:22
+-- Dump completed on 2016-12-29  0:59:26
