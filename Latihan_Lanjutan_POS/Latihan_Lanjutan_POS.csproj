@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{77BD9FA0-17C2-45C4-9557-58BCA4885822}</ProjectGuid>
+    <ProjectGuid>{9BBF1091-1DDD-4DEC-9F48-2A73790AD9E5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Latihan_Lanjutan_POS</RootNamespace>
@@ -33,6 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>..\packages\MySql.Data.6.9.9\lib\net45\MySql.Data.dll</HintPath>
       <Private>True</Private>
@@ -50,121 +62,67 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Barang.cs">
+    <Compile Include="Class\Barang.cs" />
+    <Compile Include="Class\Customer.cs" />
+    <Compile Include="Class\Database.cs" />
+    <Compile Include="Class\PembelianDetail.cs" />
+    <Compile Include="Class\PenjualanDetail.cs" />
+    <Compile Include="Class\Supplier.cs" />
+    <Compile Include="Menu\menuDelete.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Barang.Designer.cs">
-      <DependentUpon>Barang.cs</DependentUpon>
+    <Compile Include="Menu\menuDelete.Designer.cs">
+      <DependentUpon>menuDelete.cs</DependentUpon>
     </Compile>
-    <Compile Include="Daftar_Brg.cs">
+    <Compile Include="Menu\menuEdit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Daftar_Brg.Designer.cs">
-      <DependentUpon>Daftar_Brg.cs</DependentUpon>
+    <Compile Include="Menu\menuEdit.Designer.cs">
+      <DependentUpon>menuEdit.cs</DependentUpon>
     </Compile>
-    <Compile Include="Daftar_Cust.cs">
+    <Compile Include="Menu\menuHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Daftar_Cust.Designer.cs">
-      <DependentUpon>Daftar_Cust.cs</DependentUpon>
+    <Compile Include="Menu\menuHome.Designer.cs">
+      <DependentUpon>menuHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="Daftar_Supplier.cs">
+    <Compile Include="Menu\menuList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Daftar_Supplier.Designer.cs">
-      <DependentUpon>Daftar_Supplier.cs</DependentUpon>
+    <Compile Include="Menu\menuList.Designer.cs">
+      <DependentUpon>menuList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Delete_Brg.cs">
+    <Compile Include="Menu\menuRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Delete_Brg.Designer.cs">
-      <DependentUpon>Delete_Brg.cs</DependentUpon>
+    <Compile Include="Menu\menuRegister.Designer.cs">
+      <DependentUpon>menuRegister.cs</DependentUpon>
     </Compile>
-    <Compile Include="Delete_Cust.cs">
+    <Compile Include="Menu\menuTransaction.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Delete_Cust.Designer.cs">
-      <DependentUpon>Delete_Cust.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Delete_Supplier.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Delete_Supplier.Designer.cs">
-      <DependentUpon>Delete_Supplier.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Edit_Brg.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Edit_Brg.Designer.cs">
-      <DependentUpon>Edit_Brg.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Edit_Cust.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Edit_Cust.Designer.cs">
-      <DependentUpon>Edit_Cust.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Edit_Supplier.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Edit_Supplier.Designer.cs">
-      <DependentUpon>Edit_Supplier.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Menu\menuTransaction.Designer.cs">
+      <DependentUpon>menuTransaction.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Supplier.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Supplier.Designer.cs">
-      <DependentUpon>Supplier.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Barang.resx">
-      <DependentUpon>Barang.cs</DependentUpon>
+    <EmbeddedResource Include="Menu\menuDelete.resx">
+      <DependentUpon>menuDelete.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Daftar_Brg.resx">
-      <DependentUpon>Daftar_Brg.cs</DependentUpon>
+    <EmbeddedResource Include="Menu\menuEdit.resx">
+      <DependentUpon>menuEdit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Daftar_Cust.resx">
-      <DependentUpon>Daftar_Cust.cs</DependentUpon>
+    <EmbeddedResource Include="Menu\menuHome.resx">
+      <DependentUpon>menuHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Daftar_Supplier.resx">
-      <DependentUpon>Daftar_Supplier.cs</DependentUpon>
+    <EmbeddedResource Include="Menu\menuList.resx">
+      <DependentUpon>menuList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Delete_Brg.resx">
-      <DependentUpon>Delete_Brg.cs</DependentUpon>
+    <EmbeddedResource Include="Menu\menuRegister.resx">
+      <DependentUpon>menuRegister.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Delete_Cust.resx">
-      <DependentUpon>Delete_Cust.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Delete_Supplier.resx">
-      <DependentUpon>Delete_Supplier.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Edit_Brg.resx">
-      <DependentUpon>Edit_Brg.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Edit_Cust.resx">
-      <DependentUpon>Edit_Cust.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Edit_Supplier.resx">
-      <DependentUpon>Edit_Supplier.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Menu\menuTransaction.resx">
+      <DependentUpon>menuTransaction.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -175,9 +133,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Supplier.resx">
-      <DependentUpon>Supplier.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -192,6 +147,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
