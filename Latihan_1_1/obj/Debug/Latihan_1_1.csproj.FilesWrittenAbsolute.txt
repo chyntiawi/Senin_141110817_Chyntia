@@ -1,0 +1,8 @@
+/home/denny/Project/MonoDevelop/Senin_141110817_Chyntia-master/Latihan_1_1/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/denny/Project/MonoDevelop/Senin_141110817_Chyntia-master/Latihan_1_1/obj/Debug/Latihan_1_1.Form1.resources
+/home/denny/Project/MonoDevelop/Senin_141110817_Chyntia-master/Latihan_1_1/obj/Debug/Latihan_1_1.Properties.Resources.resources
+/home/denny/Project/MonoDevelop/Senin_141110817_Chyntia-master/Latihan_1_1/bin/Debug/Latihan_1_1.exe.config
+/home/denny/Project/MonoDevelop/Senin_141110817_Chyntia-master/Latihan_1_1/bin/Debug/Latihan_1_1.exe.mdb
+/home/denny/Project/MonoDevelop/Senin_141110817_Chyntia-master/Latihan_1_1/bin/Debug/Latihan_1_1.exe
+/home/denny/Project/MonoDevelop/Senin_141110817_Chyntia-master/Latihan_1_1/obj/Debug/Latihan_1_1.exe
+/home/denny/Project/MonoDevelop/Senin_141110817_Chyntia-master/Latihan_1_1/obj/Debug/Latihan_1_1.exe.mdb
